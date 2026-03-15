@@ -2,6 +2,7 @@
 #include <string>
 
 int main() {
+    system("chcp 65001");
     std::cout << "안녕! C++!\n";
 
     // 변수: 컴퓨터가 정보를 기억하기 위해 사용하는 상자
