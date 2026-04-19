@@ -1,30 +1,15 @@
-/*class Program
-{
-    static void Main(string[] args)
-    {
-        System.Console.WriteLine("Hello World!");
-    }
-}
-namespace [네임 스페이스 이름]
-{
-    class [클래스 이름1]
-    {
-    }
+Console.Write("이름:");
+string name = Console.ReadLine();
 
-    class [클래스 이름2]
-    {
-    }
-}*/
+Console.Write("남자? 여자?:");
+string gender = Console.ReadLine();
 
-using System;
+Console.Write("당신의 직업은?");
+string job = Console.ReadLine();
 
-namespace ConsoleApp1
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
-}
+Console.WriteLine("-----------------------");
+Console.WriteLine("프로필 생성 완료!");
+Console.WriteLine("이름: " + name);
+Console.WriteLine("성별: " + gender);
+Console.WriteLine("직업: " + job);
+Console.WriteLine("-----------------------");
