@@ -30,7 +30,7 @@ namespace RockPaperScissors
 
                 case 3: Console.WriteLine("보"); break;
 
-                case 20: Console.WriteLine("하.... 잘못된 숫자라고 몇번이나 말하냐,,,"); return;
+                case 20: Console.WriteLine("하.... 잘못된 숫자라고 몇번이나 말하냐..."); return;
 
                 case 21: Console.WriteLine("마지막 기회다... 한번만 더 잘못된 숫자 쓰면..."); return;
 
