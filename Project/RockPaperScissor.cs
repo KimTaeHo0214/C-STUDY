@@ -59,7 +59,6 @@ namespace RockPaperScissors
             {
                 Console.WriteLine("결과: 무승부입니다!");
             }
-            // 괄호 위치 수정 완료!
             else if ((Loman == 1 && computer == 3) ||
                      (Loman == 2 && computer == 1) ||
                      (Loman == 3 && computer == 2))
